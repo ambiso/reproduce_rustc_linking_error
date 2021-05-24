@@ -7,3 +7,4 @@ edition = "2018"
 
 [dependencies]
 emu_core = {version="0.1", features=["glsl-compile"]}
+spirv-builder = { path="./rust-gpu/crates/spirv-builder/" }
